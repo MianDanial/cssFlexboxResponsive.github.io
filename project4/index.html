@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiple Height Cards</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 32px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 15px;
+            flex: 1;
+        }
+
+        .card {
+            width: 300px;
+            margin: 10px;
+            padding: 0px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex; 
+            flex-direction: column;
+
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: #333;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .card p {
+            color: #666;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 32px;
+            margin-left: 50px;
+            margin-right: 50px;
+            bottom: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Multiple Height Cards</h1>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <img src="./assets/images (2).jpeg" alt="card1image" />
+            <h3>Card 1</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras feugiat
+                pretium fermentum. Praesent.
+            </p>
+        </div>
+        <div class="card">
+            <img src="./assets/images (2).jpeg" alt="card2image" />
+            <h3>Card 2</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras feugiat
+                pretium fermentum. Praesent.
+            </p>
+        </div>
+        <div class="card">
+            <img class="cardImg" src="./assets/images (2).jpeg" alt="card3image" />
+            <h3>Card 3</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras feugiat
+                pretium fermentum. Praesent.
+            </p>
+        </div>
+        <div class="card">
+            <img src="./assets/images (2).jpeg" alt="card4image" />
+            <h3>Card 4</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras feugiat
+                pretium fermentum. Praesent.
+            </p>
+        </div>
+    </div>
+    <footer>
+        <div class="">
+            <h1>Bottom Of the page</h1>
+        </div>
+    </footer>
+
+</body>
+
+</html>
